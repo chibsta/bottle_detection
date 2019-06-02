@@ -1,0 +1,15 @@
+{
+  "model"           : "vgg16",
+  "weights"         : "imagenet",
+  "include_top"     : false,
+  "test_path"       : "/media/storage/cvprojects/bottle_detection/data/dirty_bottles",
+
+  "classifier_path" : "../datasets/scud/models/scud_bottles.cpickle",
+  "model_path"      : "../datasets/scud/hdf5/features.hdf5",
+  "capture_video"   : false,
+  "output_video"    : "results/video.mp4",
+  "fps"             : 5,
+  "test_size"       : 0.25,
+  "seed"            : 9,
+  "num_classes"     : 2
+}
