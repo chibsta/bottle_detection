@@ -1,0 +1,1 @@
+Folder containing images, feature extraction and training outputs
